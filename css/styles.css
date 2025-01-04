@@ -17,6 +17,9 @@ body{
     background-color: #2e2f42;
 
 }
+.hero .hero-title{
+   color:  #ffff;
+}
 .hero .button-hero{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -36,3 +39,42 @@ color: #404bbf;
 .nav .link:active{
 color: #404bbf;
 }
+.nav .link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+    
+}
+.address{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+.address .link-mail,
+.address .link-tel:hover{
+    color:#404bbf;
+}
+.small text{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 4%;
+}
+h2{
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;  
+}
+h3{
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+~~
