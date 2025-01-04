@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+.header{
+    background-color: #ffff;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.hero{
+    background-color: #2e2f42;
+
+}
+.hero .button-hero{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+.hero .button-hero:hover,
+.hero .button-hero:focus{
+color: #404bbf;
+}
+.nav .link:hover{
+color: #404bbf;
+}
+.nav .link:active{
+color: #404bbf;
+}
