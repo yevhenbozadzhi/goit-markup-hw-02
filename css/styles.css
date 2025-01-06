@@ -80,21 +80,15 @@ color: #4d5ae5;
     text-decoration: underline;
     font-style: normal;
 }
-.address .link-mail{
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
-    .address .link-tel{
+.address .link-address{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
 
-.address .link-mail,
-.address .link-tel:hover{
+
+.address .link-address:hover{
     color:#404bbf;
 }   
 h2{
@@ -114,7 +108,7 @@ h3{
 background-color: #2e2f42;
 }
 .footer .footer-link{
-    font-family: "Relaway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -122,15 +116,13 @@ background-color: #2e2f42;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer .footer-text{
-    color: #f4f4fd;
-}
+
 .footer .footer-span{
     color: #f4f4fd;
     font-family: "Raleway" , sans-serif;
 }
 .footer .footer-text{
-    color: #f3f3fd;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
 }
 /* section 2 */
