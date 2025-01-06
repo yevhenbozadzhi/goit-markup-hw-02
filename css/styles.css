@@ -25,19 +25,23 @@ body{
 .hero .hero-title{
    color:  #ffff;
    text-align: center;
+   font-size: 56px;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
 }
 .hero .button-hero{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
-    color: #4d5ae5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
+    background-color: #4d5ae5;
 }
 .hero .button-hero:hover,
 .hero .button-hero:focus{
-color: #404bbf;
+background-color: #404bbf;
 }
 /* navigation */
 .nav .link-nav:hover{
@@ -78,7 +82,7 @@ color: #4d5ae5;
     color:#404bbf;
 }
 h2{
-  font-family: "Raleway";
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 2%;  
@@ -103,10 +107,11 @@ background-color: #2e2f42;
     color: #4d5ae5;
 }
 .footer .footer-text{
-    color: #ffffff;
+    color: #f4f4fd;
 }
 .footer .footer-span{
     color: #f4f4fd;
+    font-family: "Raleway" , sans-serif;
 }
 .footer .footer-text{
     color: #f3f3fd;
@@ -122,11 +127,17 @@ color: #2e2f42;
 .features-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/* sectioon 3 */
+.h3hidden-title{
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/* section 3 */
 .team{
     background-color: #f4f4fd;
 }
@@ -137,6 +148,19 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #ffffff;
+}
+.h3team-title{
+    font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        background-color: #ffffff;
+}
+.team-text{
+    background-color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 /* section 4 */
 .portfolio .portfolio-title{
@@ -146,11 +170,12 @@ color: #2e2f42;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.portfolio .h3-text{
-font-family: "Raleway";
+.portfolio .h3-portfolio{
     font-weight: 500;
-    font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    line-height: 1.12;
+    line-height: 1.2;
+}
+.portfolio .portfolio-text{
+    letter-spacing: 0.02em;
 }
