@@ -94,6 +94,9 @@ color: #4d5ae5;
 .address .link-address:hover{
     color:#404bbf;
 }   
+.address .link-address:focus{
+color: #404bbf;
+}
 h2{
   font-family: "Roboto";
   font-weight: bold;
