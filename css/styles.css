@@ -109,7 +109,7 @@ background-color: #2e2f42;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 /* section 2 */
 .features-text {
@@ -168,5 +168,4 @@ background-color: #2e2f42;
 }
 .portfolio-text{
     letter-spacing: 0.02em;
-    line-height: 1.5;
 }
